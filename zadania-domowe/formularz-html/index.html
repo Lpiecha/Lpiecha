@@ -9,20 +9,39 @@
 <form action="https://formspree.io/luki.piecha@gmail.com" method="POST">
 
     <label for="imie">Imię:</label><br>
-    <input type="text" name="imie" id="imie" placeholder="Wpisz imię" required><br>
+    <input type="text" name="imie" id="imie" placeholder="Wpisz imię" required><br><br>
 
     <label for="nazwisko">Nazwisko:</label><br>
-    <input type="text" name="nazwisko" id="nazwisko" placeholder="Wpisz nazwisko" required><br>
+    <input type="text" name="nazwisko" id="nazwisko" placeholder="Wpisz nazwisko" required><br><br>
 
     <label for="email">Email:</label><br>
-    <input type="text" name="email" id="email" placeholder="wpisz adres e-mail" required><br>
+    <input type="text" name="email" id="email" placeholder="wpisz adres e-mail" required><br><br>
 
     <label for="numer_telefonu">Numer telefonu:</label><br>
-    <input type="text" name="numer_telefonu" id="numer_telefonu" placeholder="Wpisz numer telefonu" required><br>
+    <input type="text" name="numer_telefonu" id="numer_telefonu" placeholder="Wpisz numer telefonu" required><br><br>
 
+    <select name="miasto" id="miasto">
+        <option value="miasto1">Warszawa</option>
+        <option value="miasto2">Kraków</option>
+        <option value="miasto3">Gdańsk</option>
+    </select>
+    
+    <br><br>
+    
+    <input type="text" name="kod_pocztowy" pattern="[0-9]{2}\-[0-9]{3}" title="Format xx-xxx">Kod pocztowy
+    <input type="submit">
+    
+    <input type="radio" name="plec" value="male" checked> Mężczyzna<br>
+    <input type="radio" name="plec" value="female"> Kobieta<br>
+
+    
+    <br>
+    
+     <input type="checkbox" name="zgoda" value="zgoda" checked="checked"> Zgadzam się na przetwarzanie danych osobowychr<br><br>
+    
     <label for="wiadomosc">Wiadomość:</label><br>
     <textarea maxlength="1000" id="wiadomosc"></textarea><br>
-    
+
 
     <input type="submit" value="Submit">
     
