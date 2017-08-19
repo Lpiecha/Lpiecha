@@ -6,25 +6,26 @@
 </head>
 <body>
     
-<form action="form.php" method="post">
-  
-   <label for="Imię">Imię</label>
-    <input type="text" name="Imię" id="Imię" placeholder="Wpisz imię"><br> 
-    
-    <label for="Nazwisko">Nazwisko</label>
-    <input type="text" name="Nazwisko" id="Nazwisko" placeholder="Wpisz nazwisko"><br>
-     
-    <label for="Email">Email</label>
-    <input type="text" name="E-mail" id="Email" placeholder="wpisz adres e-mail"><br>
-     
-    <label for="Numer_telefonu">Numer telefonu</label>
-    <input type="text" name="Numer_telefonu" id="Numer_telefonu" placeholder="Wpisz numer telefonu"><br>
-    
-    <label for="Wiadomość">Wiadomość</label>
-    <input type="text" name="Wiadomość" id="Wiadomość" placeholder="Wpisz wiadomość"><br>
-    
-<input type="submit" value="Submit">
-</form>
+<form action="https://formspree.io/luki.piecha@gmail.com" method="POST">
 
+    <label for="imie">Imię:</label><br>
+    <input type="text" name="imie" id="imie" placeholder="Wpisz imię" required><br>
+
+    <label for="nazwisko">Nazwisko:</label><br>
+    <input type="text" name="nazwisko" id="nazwisko" placeholder="Wpisz nazwisko" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" name="email" id="email" placeholder="wpisz adres e-mail" required><br>
+
+    <label for="numer_telefonu">Numer telefonu:</label><br>
+    <input type="text" name="numer_telefonu" id="numer_telefonu" placeholder="Wpisz numer telefonu" required><br>
+
+    <label for="wiadomosc">Wiadomość:</label><br>
+    <textarea maxlength="1000" id="wiadomosc"></textarea><br>
+    
+
+    <input type="submit" value="Submit">
+    
+</form>
 </body>
 </html>
