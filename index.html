@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    
 </head>
+
 <body>
-   <p>Moje Portfolio</p>
+
+    <form action="https://formspree.io/luki.piecha@gmail.com" method="POST">
+
+        <input type="text" name="imie" id="imie" placeholder="Wpisz imię" required> <br><br>
+        <label for="imie"></label>
+
+        <input type="text" name="nazwisko" id="nazwisko" placeholder="Wpisz nazwisko" required><br><br>
+        <label for="nazwisko"></label>
+
+        <input type="email" name="mail" id="mail" placeholder="Wpisz e-mail" required><br><br>
+        <label for="mail"></label>
+
+        <input type="text" name="telefon" id="telefon" placeholder="Wpisz nr telefonu" required><br><br>
+        <label for="telefon"></label>
+
+        <select name="select" id="miasto">
+    
+        <option value="warszawa">Warszawa</option>
+        <option value="krakow">Kraków</option>
+        <option value="gdansk">Gdańsk</option>
+    
+    </select>
+        <label for="miasto"></label>
+
+        <br><br> Wybierz płeć: <br><br>
+        
+        <input type="radio" name="plec" value="mezczyzna"> Mężczyzna
+        <input type="radio" name="plec" value="kobieta"> Kobieta
+       
+
+        <br><br>
+
+        <input type="checkbox" id="zgoda" name="zgoda" value="zgoda" checked> Zgadzam się na przetwarzanie danych osobowych
+        <label for="zgoda"></label>
+
+        <br><br>
+
+        <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea>
+        <label for="wiadomosc"></label>
+        
+        <br><br>
+        
+        <input type="submit" value="Send">
+
+    </form>
+
 </body>
+
 </html>
