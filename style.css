@@ -1,0 +1,29 @@
+body {
+    background-color: #213b50;
+}
+
+* {
+color: white;
+}
+
+input.tlo,select.tlo,textarea.tlo{
+    
+    background:#2b4a64;
+    border: #2b4a64;
+    width:300px;
+    height: 25px;
+    position: relative;
+   
+}
+
+input.tlo:focus,select.tlo:focus,textarea.tlo:focus{
+    background: #4e708c;
+    border: #ffffff;
+}
+
+input.zielony{
+    border: green;
+    background: green;
+    height: 50px;
+    width: 100px;
+}
