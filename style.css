@@ -1,30 +1,18 @@
-body {
-    background-color: #213b50;
-}
-
 * {
-color: white;
+	box-sizing: border-box;
 }
 
-input.tlo,select.tlo,textarea.tlo{
-    
-    background:#2b4a64;
-    border: #2b4a64;
-    width:300px;
-    height: 25px;
-    position: relative;
-    margin-bottom: 5px;
-   
+body {
+    font-family: 'Verdana' sans-serif;
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin: 0;
 }
 
-input.tlo:focus,select.tlo:focus,textarea.tlo:focus{
-    background: #4e708c;
-    border: #ffffff;
-}
-
-input.zielony{
-    border: green;
-    background: green;
-    height: 50px;
-    width: 100px;
+#gallery img{
+    width: 100%;
+    height: auto;
+    margin: 0: auto;
 }
