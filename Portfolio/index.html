@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     
 </head>
 
@@ -45,31 +46,51 @@
    
 </div>
 </div>
-    <div id="portfolio">
+    
+      <div id="portfolio">
        
         <h1 id="portfolio-header">Moje <span id="portfolio-greenword">portfolio</span></h1>
         
-        <div class="zdjecia"><div class="hover1"><br>Opis projektu<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div>
+        <div class="zdjecia">
+        <div class="efekt-tla">
+        <br>Opis projektu<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div>
+        <img class="pictures" src="img/portfolio1.jpg" alt="Projekt 1" id="zdjecie1"><div class="efekt-tla"><br>Opis projektu<br>
         
-        <img class="pictures" src="img/portfolio1.jpg" alt="Projekt 1" id="zdjecie1"><div class="hover1"><br>Opis projektu<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div>
+        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div>
+        <img class="pictures" src="img/portfolio2.jpg" alt="Projekt 2" id="zdjecie2"><div class="efekt-tla"><br>Opis projektu<br>
         
-        <img class="pictures" src="img/portfolio2.jpg" alt="Projekt 2" id="zdjecie2"><div class="hover1"><br>Opis projektu<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div><img class="pictures" src="img/portfolio4.jpg" alt="Projekt 3" id="zdjecie3">
+        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div>
+        <img class="pictures" src="img/portfolio4.jpg" alt="Projekt 3" id="zdjecie3">
+        
         </div>
-        
-<div id="contact">
-    <h1 id="contact-header">Łukasz <span id="nazwisko">Piecha</span></h1>
-    <h4 class="contact-content">ul. Szczęsliwa 16/26<br>08-205 Warszawa <br><br>tel: 538 484 205<br>e-mail: luki.piecha@gmail.com</h4>
-    <div id="divform"><form id="formbox" action="https://formspree.io/your@email.com" method="POST">
+    </div>
+
+<section id="contact">
+    
+<div id="divcontact"><h1 id="contact-header">Łukasz <span id="nazwisko">Piecha</span></h1>
+    <h4 class="contact-content">ul. Szczęsliwa 16/26<br>08-205 Warszawa <br><br>tel: 538 484 205<br>e-mail:<span id="green-email"> luki.piecha@gmail.com</span></h4>
+</div>
+    
+    
+<div id="divform">
+    <form id="formbox" action="https://formspree.io/your@email.com" method="POST">
     <input class="boxstyle" type="text" name="namesurname" placeholder="Imię i nazwisko"><br>
     <input class="boxstyle" type="email" name="_replyto" placeholder="E-mail"><br>
     <textarea name="msgbox" cols="40" rows="2" class="msgstyle" placeholder="Treść wiadomości"></textarea><br>
-    <input class="zielony" type="submit" value="Wyślij">
+    <input class="zielony" type="submit" value="WYŚLIJ">
     </form>
-        </div>
-   
-       <footer id="footer">
+</div>
+      <div id="social-icons">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </div>
+    </section>
+    
+<footer id="footer">
         <h5 class="footer-content">Copyright &copy; Łukasz Piecha</h5>
-        </footer>  
-        </div></div>
+</footer>  
+    
 </body>
 </html>
