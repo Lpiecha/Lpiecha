@@ -293,4 +293,8 @@ input.zielony{
     color: #fff;
     font-weight: 700;
 }
+#foot {
+    position:fixed;
+    bottom:0;
+}
     
