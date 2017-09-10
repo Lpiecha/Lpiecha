@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-    
-    
+    <p id="zmiana-koloru-p1">Paragraf1</p>
+    <p id="zmiana-koloru-p2">Paragraf2</p>
+
+    <button type="button" id="guzik">Ustaw tło paragrafów</button>
+
+    <form id="formularz" onsubmit="pobierzImie(event)">
+        Imię: <input type="text" name="fname" value="Krystian">
+        <br> Nazwisko: <input type="text" name="lname" value="Dziopa">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
     <script src="warsztaty.js"></script>
 </body>
+
 </html>
