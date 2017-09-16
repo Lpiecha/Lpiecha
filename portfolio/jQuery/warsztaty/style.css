@@ -37,12 +37,12 @@ img {
     
 }   
  .slider-arrows {
+     font-size: 46px;
      position: absolute;
      top: 50%;
      transform: translate(-50%);
 }
   
-
 .prev-slide {
     color: aliceblue;
     font-size: 50px;
@@ -51,14 +51,19 @@ img {
     z-index: 6;
 }
 
-
 .next-slide {
     position: absolute;
     right: 0;
     z-index: 6;
 }
 
-
+.fa fa-arrow-right {
+     color: aliceblue;
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    z-index: 7;
+} 
 
 
 
