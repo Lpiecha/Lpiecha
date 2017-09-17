@@ -45,21 +45,29 @@ function ajax(ajaxOptions) {
     
 };
 
-'use strict';
 function pobierzDane(){
-$(document).ready(function() {
-    
-    $( "button" ).click( function() {
+    ajax({
+    type: "GET",
+    url:"http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl",
+    onError: function(msg){
+        console.log(msg);
+    },
+    onSuccess: function(response){
+        var jsonObj = JSON.parse(response);
+        var paragraphUserId = document.createElement("p");
+            paragraphUserId.innerHTML = "User ID: " + jsonObj.userId;
+            document.body.appendChild(paragraphUserId);
+            
+            var paragraphUserName = document.createElement("p");
+            paragraphUserName.innerHTML = "User Name: " + jsonObj.userName;
+            document.body.appendChild(paragraphUserName);
+            
+            var paragraphURL = document.createElement("p");
+            paragraphURL.innerHTML = "User URL: " + jsonObj.userURL;
+            document.body.appendChild(paragraphURL);
         
-    $.getJSON('http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl', function (data) {
         
-    console.log(data);
-    
-   $("body").append("<p>User ID: "+ data.userId+"</p>");    
-   $("body").append("<p>User Name: "+ data.userName+"</p>");    
-   $("body").append("<p>User URL: "+ data.userURL+"</p>");          
-    
-} );
-} );
-});
-}
+        console.log(jsonObj);
+    }
+})
+    }
