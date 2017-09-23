@@ -1,7 +1,16 @@
+body {
+    margin 0;
+    padding 0;
+}
+
 #main-header {
     height: 200vh;
     background: url(header/pictures_on_the_wall.jpg);
     width: 100%;
+}
+#main-nav ,navbar-header ,navbar-brand,
+#main-nav ,navbar-collapse ,navbar-nav li a {
+    color:#f7f7f7;
 }
 
 #header-text{
@@ -10,7 +19,7 @@
     text-align: center;
     color: #f7f7f7;
     top: 50%;
-    transform:translate(50% -50%);
+    transform:translateY(-50%);
 }
 
 .navbar {
@@ -21,15 +30,37 @@
     color: #f7f7f7;
 }
 
-.serv-text{
+#services {
     text-align: center;
 }
 
+
 .serv-icons{
-   text-align: center;
+   float: left;
+
 }
 
-.icons-web {
-    float: left;
+#icons {
+   background: red;
+    height: 100vh;
+    width: 100%;
+  
 }
 
+#services .fa{
+    width: 60px;
+    height: 60px;
+    background-color: #0ed8d6;
+    border-radius: 50%;
+    color: #FFFFFF;
+    line-height: 60px;
+    font-size: 2em;
+    border: 1px solid #0ed8d6;
+    transition: all 0.4s;
+}
+
+#services .fa:hover {
+    background-color: #FFFFFF;
+    color:#0ed8d6;
+    transform: rotate(360deg);
+}
