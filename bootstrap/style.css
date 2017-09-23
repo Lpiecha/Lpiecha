@@ -1,13 +1,35 @@
-.container {
-    margin-bottom: 10px;
+#main-header {
+    height: 200vh;
+    background: url(header/pictures_on_the_wall.jpg);
+    width: 100%;
 }
 
-.container .col-xs-12 .inner {
-    height: 100px;
-    background-color: red;
+#header-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #f7f7f7;
+    top: 50%;
+    transform:translate(50% -50%);
 }
 
-.container-fluid {
-    height: 100px;
-    background: gray;
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   font-family: Montserrat;
+    color: #f7f7f7;
 }
+
+.serv-text{
+    text-align: center;
+}
+
+.serv-icons{
+   text-align: center;
+}
+
+.icons-web {
+    float: left;
+}
+
