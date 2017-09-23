@@ -1,0 +1,13 @@
+.container {
+    margin-bottom: 10px;
+}
+
+.container .col-xs-12 .inner {
+    height: 100px;
+    background-color: red;
+}
+
+.container-fluid {
+    height: 100px;
+    background: gray;
+}
