@@ -49,7 +49,7 @@ h3 {
 /* efekt maski, mozemy uzyskac stosujac trick z linear-gradient */
 #main-header {
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/header/pictures_on_the_wall.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/header/pictures_on_the_wall.jpg') no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -110,4 +110,75 @@ h3 {
     background-color: #FFFFFF;
     color: #0ED8D6;
     transform: rotate(360deg);
+}
+/*portfolio*/
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .single-portfolio-item {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#portfolio .single-portfolio-item .portfolio-image-container {
+    height: 300px;
+    overflow: hidden;
+}
+
+#portfolio .single-portfolio-item .portfolio-image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    transition: all 0.4s;
+}
+
+#portfolio .single-portfolio-item .portfolio-image:hover {
+    transform: scale(1.2);
+}
+
+#portfolio #portfolio-image-1 {
+    background-image: url("img/portfolio/chestnut_on_bracket.jpg")
+}
+
+#portfolio #portfolio-image-2 {
+    background-image: url("img/portfolio/typing_on_laptop.jpg")
+}
+
+#portfolio #portfolio-image-3 {
+    background-image: url("img/portfolio/child_with_blue_paint.jpg")
+}
+
+#portfolio #portfolio-image-4 {
+    background-image: url("img/portfolio/chaotic_paint.jpg")
+}
+
+#portfolio #portfolio-image-5 {
+    background-image: url("img/portfolio/house_with_blue_doors.jpg")
+}
+
+#portfolio #portfolio-image-6 {
+    background-image: url("img/portfolio/box_of_cookies.jpg")
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask {
+    background-color: rgba(14, 216, 214, 0.85);
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    position: relative;
+}
+
+#portfolio .single-portfolio-item .portfolio-image:hover .portfolio-image-mask {
+    opacity: 1;
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask .fa {
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
