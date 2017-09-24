@@ -1,119 +1,88 @@
 <!DOCTYPE html>
-
-<html lang="pl">
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!--Zapewnienie reagowania zawartości strony na różne wielkości ekranu -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BootstrapTemplate</title>
-    <!--Skompresowany BootstrapCSS dodany lokalnie -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat|Roboto+Slab" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-   
-      <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!--     Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <!-- menu nawigacyjne -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                    <a class="navbar-brand" href="#">Bootstrap Project</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">PORTFOLIO</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">TEAM</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-
-                </div>
-                <!-- /.navbar-collapse -->
-
+                <a class="navbar-brand" href="#">Project Bootstrap</a>
             </div>
-            <!-- /.container-fluid -->
 
-        </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
     <header id="main-header">
-
-             <div id="header-text">
-
-            <h2>Lorem ipsum dolor.</h2>
-            <h1>Lorem ipsum dolor.</h1>
-            <button type="button" class="btn btn-info">VIEW MORE</button>
-
+        <div class="inner">
+            <h2>Num libero temporte</h2>
+            <h1>lorem ipsum dolor</h1>
+            <a href="" class="btn btn-default btn-lg">view more</a>
         </div>
-
     </header>
-
-    <div id="services">
-        <h2 class="serv-text">Services</h2>
-        <h6 class="serv-text">Lorem ipsum dolor sit amet, consectetur.</h6>
-    </div>
-
-
-<!--
-    <div id="icons">
-        <h5 class="serv-icons"> Web Developement</h5>
-        <h6 class="serv-icons">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-    </div>
-
-    <div class="icons">
-        <h5 class="serv-icons"> E-Commerce</h5>
-        <h6 class="serv-icons">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-    </div>
-
-    <div class="icons">
-        <h5 class="serv-icons"> Web Design</h5>
-        <h6 class="serv-icons">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-    </div>
--->
-       
-       <div id="icons">
-        <a href="#" class="btn btn-info btn-lg">
-        <span class="glyphicon glyphicon-briefcase"></span>
-        </a>
-        <h5 class="serv-icons"> Web Developement</h5>
-        <h6 class="serv-icons">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-        
-        <a href="#" class="btn btn-info btn-lg">
-        <span class="glyphicon glyphicon-cloud-download"></span>
-        </a>
-        <h5 class="serv-icons"> E-Commerce</h5>
-        <h6 class="serv-icons">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-        
-        <a href="#" class="btn btn-info btn-lg">
-        <span class="glyphicon glyphicon-sunglasses"></span>
-        </a>
-        <h5 class="serv-icons"> E-Commerce</h5>
-        <h6 class="serv-icons">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+    
+    <section id="services" class="text-center">
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolor natus, cupiditate, corporis maxime a nisi.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Web developer</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Web developer</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Web developer</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
         </div>
+    </section>
 
-   
-   
-
-
-
-
-    <!--jQuery(wymagany dla BootstrapJavaScript) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-    </script>
-    <!--Skompresowany plik BootstrapJavaScriptdodany lokalnie -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="carousel.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
