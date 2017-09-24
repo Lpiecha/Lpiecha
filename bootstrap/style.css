@@ -211,3 +211,14 @@ h3 {
 .img-circle {
     margin-top: 50px;
 }
+
+p {
+    font-family: 'Roboto Slab';
+    font-weight: 100;
+    color: #777777;
+}
+#team-text{
+    font-weight: 600;
+    margin: 50px 200px;
+    line-height: 30px;
+}
