@@ -19,6 +19,10 @@ h3 {
 #main-nav {
     background-color: transparent;
     border: 0;
+    transition: all 0.4s;
+}
+#main-nav.scrolled {
+    background-color: #0ED8D6;
 }
 
 /* .navbar-brand to klasa przypisana do linka, jezeli chcemy zmienic kolor linkow, musimy jako target wybrac a (badz klase przypisana do a) */

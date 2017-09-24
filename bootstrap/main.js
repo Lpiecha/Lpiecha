@@ -28,3 +28,12 @@ function scrollMenu() {
         $('#main-nav').removeClass('scrolled');
     }
 }
+
+//'use strict';
+//
+//$( '#id-carousel' ).carousel({
+   
+//    interval:3000
+////    pause: null,
+////    wrap: false
+//});
