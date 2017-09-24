@@ -226,3 +226,21 @@ p {
 .text-services{
     margin-bottom:50px;
 }
+
+#contact{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url("img/footer/world-map.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#contact h2,
+#contact p{
+    color:#ffffff;
+}
+#contact input:not([type="submit"]),
+#contact textarea {
+    text-transform: uppercase;
+    padding:15px;
+    font-family: 'Montserrat', sans-serif;
+}
