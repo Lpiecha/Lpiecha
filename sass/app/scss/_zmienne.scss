@@ -1,0 +1,12 @@
+$base-color:yellow;
+$theme-color:purple;
+
+@mixin buton($width, $height) {
+    border-radius: 10px;
+    border: solid black 1px;
+    display: inline-block;
+    width: $width;;
+    height: $height;
+    text-align: center;
+    background-color: blue;
+}

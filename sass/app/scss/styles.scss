@@ -1,8 +1,10 @@
-body {
-    background-color: green;
+@import "zmienne";
+body{
+    color:$base-color;
+    background-color:$theme-color;
 }
 nav {
-
+    
     ul {
         margin:0;
         padding:0;
@@ -16,3 +18,7 @@ nav {
         }
     }
 }
+
+.guzik{
+    @include buton
+        }
