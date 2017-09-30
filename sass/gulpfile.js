@@ -9,3 +9,9 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
 });
+
+// .pipe(plumber({
+//        errorHandler: function (err) {
+//            console.log(err);
+//            this.emit('end');
+//            }}))
