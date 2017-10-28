@@ -1,13 +1,10 @@
-/* bootstrap swoje style opiera na klasach, nalezy pamietac o hierarchii selektorow, jezeli chcemy nadpisywac selektory oparte o klasy, wystarczy do elementu dodac ID i tworzyc selektory oparte o ID */
-
-/* reset css */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
 
-/* helpers */
+
 section {
     padding: 60px 0;
 }
@@ -15,18 +12,13 @@ section {
 h3 {
     font-size: 1.2em;
 }
-/* navbar */
+
 #main-nav {
     background-color: transparent;
     border: 0;
-    transition: all 0.4s;
-}
-#main-nav.scrolled {
-    background-color: #0ED8D6;
 }
 
-/* .navbar-brand to klasa przypisana do linka, jezeli chcemy zmienic kolor linkow, musimy jako target wybrac a (badz klase przypisana do a) */
-/* zeby nadac efekt animacji na dzialania uzytkownika, uzywamy wlasciwosci transition - nadajemy ja PRZED akcja uzytkownika */
+
 #main-nav .navbar-header .navbar-brand,
 #main-nav .navbar-collapse .navbar-nav li a {
     color: #FFFFFF;
@@ -49,16 +41,15 @@ h3 {
     transition: all 0.4s;
 }
 
-/* header */
-/* efekt maski, mozemy uzyskac stosujac trick z linear-gradient */
+
 #main-header {
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/header/pictures_on_the_wall.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/header/pictures_on_the_wall.jpg') no-repeat;
     background-size: cover;
     position: relative;
 }
 
-/* po zmianie pozycji (wlasciwosc position) danego elementu blokowego, traci on swoje wlasciwosci rozciagniecia na 100% (flow-dokumentu). Nalezy zatem pamietac, aby elementowi ze zmieniona pozycja, nadawac szerokosc */
+
 #main-header .inner {
     position: absolute;
     top: 50%;
@@ -96,8 +87,7 @@ h3 {
     color: #0ED8D6;
 }
 
-/* services */
-/*trick - jezeli chcemy wysrodkowac element liniowy wzgledem elementu, a miesci sie on w jednej linii (SPRAWDZAMY TEZ DLA RWD), to mozemy ustawic line-height, na wysokosc (height) elementu*/
+
 #services .fa {
     width: 60px;
     height: 60px;
@@ -114,134 +104,4 @@ h3 {
     background-color: #FFFFFF;
     color: #0ED8D6;
     transform: rotate(360deg);
-}
-/*portfolio*/
-
-#portfolio {
-    background-color: #f7f7f7;
-}
-
-#portfolio .single-portfolio-item {
-    background-color: white;
-    margin-bottom: 20px;
-}
-
-#portfolio .single-portfolio-item .portfolio-image-container {
-    height: 300px;
-    overflow: hidden;
-}
-
-#portfolio .single-portfolio-item .portfolio-image {
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    transition: all 0.4s;
-}
-
-#portfolio .single-portfolio-item .portfolio-image:hover {
-    transform: scale(1.2);
-}
-
-#portfolio #portfolio-image-1 {
-    background-image: url("img/portfolio/chestnut_on_bracket.jpg")
-}
-
-#portfolio #portfolio-image-2 {
-    background-image: url("img/portfolio/typing_on_laptop.jpg")
-}
-
-#portfolio #portfolio-image-3 {
-    background-image: url("img/portfolio/child_with_blue_paint.jpg")
-}
-
-#portfolio #portfolio-image-4 {
-    background-image: url("img/portfolio/chaotic_paint.jpg")
-}
-
-#portfolio #portfolio-image-5 {
-    background-image: url("img/portfolio/house_with_blue_doors.jpg")
-}
-
-#portfolio #portfolio-image-6 {
-    background-image: url("img/portfolio/box_of_cookies.jpg")
-}
-
-#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask {
-    background-color: rgba(14, 216, 214, 0.85);
-    height: 100%;
-    opacity: 0;
-    transition: all 0.4s;
-    position: relative;
-}
-
-#portfolio .single-portfolio-item .portfolio-image:hover .portfolio-image-mask {
-    opacity: 1;
-}
-
-#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask .fa {
-    color: white;
-    font-size: 3em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.social-icons a {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    line-height: 40px;
-    background-color: #222;
-    border: 1px solid #222;
-    border-radius: 50%;
-    font-size: 1.8em;
-    color: #fff;
-    margin:5px;
-    transition: all 0.4s;
-}
-
-.social-icons a:hover {
-    background-color: #0ED8D6;
-    border: 1px solid #0ED8D6;
-}
-.team-h3 {
-    font-weight: bold;
-}
-.img-circle {
-    margin-top: 50px;
-}
-
-p {
-    font-family: 'Roboto Slab';
-    font-weight: 100;
-    color: #777777;
-}
-#team-text{
-    font-weight: 600;
-    margin: 50px 200px;
-    line-height: 30px;
-}
-
-.text-services{
-    margin-bottom:50px;
-}
-
-#contact{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-    url("img/footer/world-map.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-#contact h2,
-#contact p{
-    color:#ffffff;
-}
-#contact input:not([type="submit"]),
-#contact textarea {
-    text-transform: uppercase;
-    padding:15px;
-    font-family: 'Montserrat', sans-serif;
-    text-tra
 }
