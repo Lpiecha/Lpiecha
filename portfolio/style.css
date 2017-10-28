@@ -70,7 +70,7 @@ body {
 
 #about {
     display: inline-block;
-    background-color: #f9fcfe;
+    background-color: #f7f7f7;
     margin: 0: auto;
     padding-bottom: 5%;
     padding-top: 5%;
@@ -105,9 +105,8 @@ body {
 }
 
 #skills {
-    background-color: #f9fcfe;
+    background-color: #DDFAD1;
     padding: 1%;
-    margin-top: 0.5%;
     padding-top: 5%;
     padding-bottom: 10%;
 }
@@ -142,10 +141,8 @@ body {
     font-weight: 900;
 }
 #portfolio {
-    
-    margin-top: 0.5%;
     padding-top: 5%;
-    background-color: #f9fcfe;
+    background-color: #f7f7f7;
 }
 
 #portfolio-header {
@@ -194,7 +191,6 @@ body {
 
 #contact {
     background-color: #213b50;
-    margin-top: 5%;
 }
 
 #contact-header {
@@ -249,10 +245,12 @@ body {
     background:#2b4a64;
     border: #2b4a64;
     margin-bottom: 15px;
+    color: white;
+    padding: 10px;
 }
 .boxstyle::placeholder{
     color: lightgray;
-    padding: 10px;
+ 
 }
 
 .msgstyle{
@@ -261,10 +259,12 @@ body {
     background:#2b4a64;
     border: #2b4a64; 
     margin-bottom: 15px;
+    padding: 10px;
+    color: white;
 }
 .msgstyle::placeholder{
     color: lightgray;
-    padding: 10px;
+
 }
 
 #footer {
@@ -282,14 +282,12 @@ body {
     text-decoration:underline;
 }
 input.zielony{
-    
-    float: right;
     background: #1ac056;
     height: 50px;
     width: 100px;
     border: 1px;
     border-style:solid;
-    border-color: #fff;
+    border-color:#fff;
     color: #fff;
     font-weight: 700;
 }
