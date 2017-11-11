@@ -19,4 +19,8 @@ $("input[type='text']").keypress(function(event){
     
     }
 });
+
+$(" .fa-pencil-square-o").click(function(){
+    $("input[type='text']").fadeToggle();
+});
                             
