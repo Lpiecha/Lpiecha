@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+    #drop{
+        display: none;
+}
+    .toggle{
+        display: none;
+}
+    
+body {
+    background-color: gainsboro;
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 100%;
+    padding: 0;
+    font-weight:100;
+    letter-spacing: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+#menu {
+  text-align: right;
+  background: #f9fcfe; 
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#menu .menu-item {
+    display: inline-block;
+    padding: 25px;
+}
+#menu .menu-item a{
+    color:#1ac056;
+    text-decoration: none;
+}
+#main-header-content {
+    width: 100%;
+    margin: 0 0 0 0;
+}
+#main-header h1{
+    display: inline-block;
+    position: absolute;
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    top:40%;
+}
+#main-header h2{
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    top:70%;
+}
+#main-header img{
+    width: 100%;
+}
+#h1-name {
+   color:#1ac056;
+   font-weight: bold;
+}
+
+#about {
+    display: inline-block;
+    background-color: #f7f7f7;
+    margin: 0: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#about-header {
+    text-align: center;
+}
+
+#mnie {
+    color: #1ac056;
+    font-family: lato;
+}
+
+.about-content {
+    font-family: 'Roboto';
+    text-align: left;
+    word-spacing: 5px;
+    line-height: 23px;
+    margin-right: 5%;
+    font-size: 100%;
+    margin-left: 50%;
+    margin-top: 5%;
+    font-weight: 100;
+}
+#about img {
+    float: left;
+    margin-left:15%;
+    width:20%;
+    margin-bottom: 8%;
+    margin-top: 3%;
+}
+
+#skills {
+    background-color: #1ac056;
+    padding: 1%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#skills-header {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#span-skills {
+    color: #f7f7f7;
+    font-family: lato;
+}
+
+.skills-content{
+    text-align: center;
+}
+
+#icons{
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+#icons figure{
+    display: inline-block;
+    padding: 3%;
+
+}
+#icons figcaption{
+    margin-top:26%;
+    font-weight: 900;
+}
+#portfolio {
+    padding-top: 5%;
+    background-color: #f7f7f7;
+}
+
+#portfolio-header {
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+#portfolio-greenword {
+     color: #1ac056;
+     font-family: lato;
+}
+
+.pictures {
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    width: 33.3333%;
+    height: 350px;
+}
+       
+.zdjecia { 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.efekt-tla {
+    background-color: rgba(33, 59, 80, 0.8);
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    width: 29.9%;
+    height: 350px;
+    font-weight: 800;
+    font-size: 100%;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.efekt-tla:hover{
+    opacity:1;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#contact {
+    background-color: #213b50;
+}
+
+#contact-header {
+    color: #fff;
+    margin-left: 10%;
+
+}
+
+#nazwisko{
+    color: #1ac056;
+    font-family: lato;
+}
+
+.contact-content {
+    display: inline-block;
+    color: #fff;
+    line-height: 26px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#divcontact{
+    margin-top: 5%;
+    background:#213b50;
+    float: left;
+    width: 50%;
+}
+
+#divform{
+    margin-top: 5%;
+    float: left;
+    background:#213b50;
+    width: 45%;
+}
+#social-icons{
+    display: inline-block;
+    background: #213b50;
+    margin-left: 5%;
+    font-size: 35px;
+    margin-bottom: 5%;
+    word-spacing: 15px;
+    color: #fff;
+}
+#formbox{
+    width: 100%;
+    border: 0px;
+    border-color: #2b4a64;
+}
+.boxstyle{
+    width: 100%;
+    height: 35px;
+    background:#2b4a64;
+    border: #2b4a64;
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+}
+.boxstyle::placeholder{
+    color: lightgray;
+ 
+}
+
+.msgstyle{
+    width: 100%;
+    height: 75px;
+    background:#2b4a64;
+    border: #2b4a64; 
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+}
+.msgstyle::placeholder{
+    color: lightgray;
+
+}
+
+#footer {
+    float: left;
+    width: 100%;
+    background: #142634;
+} 
+.footer-content {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5%;
+}
+#green-email{
+    color: #1ac056;
+    text-decoration:underline;
+}
+input.zielony{
+    background: #1ac056;
+    height: 50px;
+    width: 100px;
+    border: 1px;
+    border-style:solid;
+    border-color:#fff;
+    color: #fff;
+    font-weight: 700;
+}
+#foot {
+    position:fixed;
+    bottom:0;
+}
+    
