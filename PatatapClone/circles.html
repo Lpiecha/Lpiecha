@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Circles</title>
-    <script type="text/javascript" src="paper-full.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.js"></script>
-    <link rel="stylesheet" href="circles.css">
-    
-<!-- Define inlined PaperScript associate it with myCanvas -->
-<script type="text/paperscript" canvas="myCanvas">
+	<title>Circles</title>
+	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.js"></script>
+	<link rel="stylesheet" type="text/css" href="circles.css">
 
+	<script type="text/paperscript" canvas="myCanvas">
 		var keyData = {
 			q: {
 				sound: new Howl({
@@ -184,13 +181,17 @@
 		}
 
 		function onFrame(event){
-			for(var i = 0; i < circles.length; i++){
-				circles[i].fillColor.hue += 1;
-				circles[i].scale(.9);
-			}
-		}
-
-</script>
+      for(var i = 0; i < circles.length; i++){
+        circles[i].scale(0.9);
+        circles[i].fillColor.hue += 1;
+        if(circles[i].area < 1){
+        	circles[i].remove();
+          circles.splice(i, 1);
+          console.log(circles);
+        }
+      }
+    }
+	</script>
 </head>
 <body>
 	<canvas id="myCanvas" resize></canvas>
