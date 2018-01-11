@@ -19,3 +19,33 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+
+#btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 30px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 800;
+    color: #34495e;
+    border: none;
+    outline: none;
+    height: 60px;
+    text-align: center;
+    width: 180px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    background: #fff;
+    border: 2px solid #34495e;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+button:hover {
+    color: white;
+    background: #34495e;
+}
