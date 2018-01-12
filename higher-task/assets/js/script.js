@@ -7,8 +7,10 @@ $("#btn").click(function(){
     
     .done(function(data){
        console.log(data[0].post_url);
-       $(".photo").attr("src", data[0].post_url);
-        
+       $("#img-1").attr("src", data[0].post_url);
+       $("#img-2").attr("src", data[1].post_url);
+       $("#img-3").attr("src", data[2].post_url);
+      
    })
     .fail(function(){
        alert("Something went wrong");
