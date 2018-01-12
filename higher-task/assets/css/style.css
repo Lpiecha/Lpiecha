@@ -49,11 +49,21 @@ button:hover {
     color: white;
     background: #34495e;
 }
+.test {
+    width: 264px;
+    height: 168px;
+}
+.photo {
+    width: 264px;
+    height: 168px;
+}
 img {
     width: 200px;
 }
-/*
-.container > img.photo {
-    width: 2640px;
+
+.test > img.photo {
+    display: flex;
+    justify-content: space-around;
+    width: 264px;
     height: 168px;
-}*/
+}

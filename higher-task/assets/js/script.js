@@ -1,9 +1,18 @@
+ 'use strict';
+
 $("#btn").click(function(){
-    'use strict';
-   $.getJson("https://picsum.photos/list")
+   
+   $.get("https://picsum.photos/list")
+    
+    
     .done(function(data){
-       console.log(data);
-   });
+       console.log(data[0].post_url);
+       $(".photo").attr("src", data[0].post_url);
+        
+   })
+    .fail(function(){
+       alert("Something went wrong");
+   })
 });
 
 //'use strict';
