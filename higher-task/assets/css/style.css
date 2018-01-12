@@ -49,3 +49,11 @@ button:hover {
     color: white;
     background: #34495e;
 }
+img {
+    width: 200px;
+}
+/*
+.container > img.photo {
+    width: 2640px;
+    height: 168px;
+}*/
