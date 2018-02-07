@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+header {
+    background-image: url(../background/Rectangle%205%20copy.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0px;
+    width: 620px;
+    height: 597px;
+}
+
+#quadrangle {
+    position: absolute;
+    width: 45%;
+    right: 0px;
+    top: -50px;
+}
+
+#quadrangle-2 {
+    position: absolute;
+    width: 45%;
+    right: 0px;
+    top: -40px;
+}
