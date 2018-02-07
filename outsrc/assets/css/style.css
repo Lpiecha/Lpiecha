@@ -71,6 +71,10 @@ header>h2>a:visited {
     display: none;
 }
 
+#mobile-text2 {
+    display: none;
+}
+
 #logo {
     position: absolute;
     top: 150px;
@@ -137,7 +141,7 @@ input[type="text"] {
 input::placeholder {
     color: rgb(0, 0, 0);
     font-family: 'Ubuntu', sans-serif;
-    font-weight: light;
+    font-weight: 100;
 }
 
 input[type="submit"] {
