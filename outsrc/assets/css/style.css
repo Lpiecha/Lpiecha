@@ -147,6 +147,14 @@ input[type="submit"] {
     height: 45px;
     margin-left: 60px;
     margin-top: 20px;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(39, 39, 39);
+    transition: all 0.5s ease;
+    color: rgb(252, 172, 69);
+    border: 2px solid rgb(252, 172, 69);
 }
 
 #middle {
