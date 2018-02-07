@@ -53,6 +53,20 @@ header>h2 {
     height: 50px;
 }
 
+header>h2>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header>h2>a:hover {
+    color: rgb(252, 172, 69);
+    transition: all 0.5s ease;
+}
+
+header>h2>a:visited {
+    color:color: rgb(255, 255, 255);
+}
+
 #logo {
     position: absolute;
     top: 150px;
@@ -168,14 +182,19 @@ footer {
     height: 300px;
 }
 
-#left-arrow-container>img {
+#left-arrow-container>a img {
     margin-left: 250px;
     margin-top:80px;
 }
 
-#right-arrow-container>img {
+#right-arrow-container>a img {
     margin-right: 250px;
     margin-top: 80px;
+}
+
+#right-arrow-container>a img:hover {
+    color: rgb(149, 149, 149);
+    transition: all 0.3s ease;
 }
 
 #arrow-image-container {
