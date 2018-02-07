@@ -2,10 +2,8 @@ body {
     margin: 0 auto;
     max-width: 100%;
     background-color: rgb(37, 37, 37);
-    /*
     font-family: 'Ubuntu', sans-serif;
     color: rgb(255, 255, 255);
-*/
 }
 
 header {
@@ -14,7 +12,7 @@ header {
     background-repeat: no-repeat;
     top: 0px;
     left: 0px;
-    width: 620px;
+    width: 50%;
     height: 600px;
 }
 
@@ -74,6 +72,60 @@ header>h2 {
     width: 45%;
     right: 0px;
     top: -40px;
+}
+
+#discount {
+    float: right;
+    width: 50%;
+    height: 600px;
+}
+
+#discount>h2 {
+    margin-top: 120px;
+    font-size: 36px;
+    width: 350px;
+    color: rgb(234, 159, 61);
+}
+
+#discount>h3 {
+    margin-top: -30px;
+    margin-left: 10px;
+    width: 350px;
+    font-size: 16px;
+}
+
+input {
+    margin: 7px;
+    display: block;
+    width: 300px;
+    line-height: 30px;
+    border-width: 1px;
+    border-color: rgb(149, 149, 149);
+    border-style: solid;
+}
+
+input::placeholder {
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: light;
+}
+
+input:focus {
+    padding-left: 7px;
+}
+
+input[type="submit"] {
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(252, 172, 69);
+    width: 200px;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
 
 #icons {
