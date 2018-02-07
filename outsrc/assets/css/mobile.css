@@ -1,14 +1,15 @@
         @media only screen and (max-width: 1060px) {
-            body{
+        body{
                 margin: 0 auto;
             }
             
-            header {
+        header {
             width: 100%;
             background-position: center;
         }
         h1#header-text {
-            width: 100%;
+            width: 80%;
+            margin-left: 100px;
         }
         header h2 {
             position: absolute;
@@ -58,6 +59,7 @@
         #quadrangle-2 {
             display: none;
         }
+        
         img#logo {
             position: absolute;
             top: 30%;
@@ -66,14 +68,14 @@
             transform: translate(-50%, -50%)
         }
         
-            middle {
-                height: 30%;
-            }
+        middle {
+            height: 30%;
+        }
             
-            h3.icons-h3 {
-                width: 160px;
-            }
+        h3.icons-h3 {
+            width: 160px;
+        }
             
-            footer{
-                display: none;
-            }
+        footer{
+            display: none;
+        }
