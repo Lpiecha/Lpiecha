@@ -168,6 +168,20 @@ footer {
     height: 300px;
 }
 
+#left-arrow-container>img {
+    margin-left: 250px;
+    margin-top:80px;
+}
+
+#right-arrow-container>img {
+    margin-right: 250px;
+    margin-top: 80px;
+}
+
+#arrow-image-container {
+    display: flex;
+    justify-content: center;
+}
 #footer-image {
     border-radius: 50%;
     background-color: rgb(103, 34, 34);
@@ -195,6 +209,10 @@ footer {
 #slider-container>h3,h4 {
     font-weight: 100;
     color: rgb(149, 149, 149);
+}
+
+#slider-container>h3 {
+ 
 }
 
 #slider-container>h4 {
@@ -226,5 +244,10 @@ h5 {
     text-align: center;
     font-weight: 100;
     font-size: 12px;
-    color: rgb(149, 149, 149);;
+    color: rgb(149, 149, 149);
+}
+
+#span-h5 {
+    border-left: 1px solid rgb(149, 149, 149);
+   padding-left: 2px;
 }
