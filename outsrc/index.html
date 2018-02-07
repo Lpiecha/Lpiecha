@@ -30,7 +30,7 @@
         <h3>Zostaw dane i dowiedz się więcej o ofercie </h3>
 
         <div>
-            <form action="/action_page.php">
+            <form action="https://formspree.io/your@email.com" method="POST">
                 <label for="fname"></label>
                 <input type="text" id="fname" name="firstname" placeholder="Wpisz imię...">
 
@@ -64,24 +64,27 @@
     <footer>
         <div id="arrow-image-container">
             <div class="arrow" id="left-arrow-container">
-                <a href="#"><img src="assets/footer/left-arrow.png" alt=""></a>
+                <a href="#slider-container"><img src="assets/footer/left-arrow.png" alt=""></a>
             </div>
             <div id="slider-container">
-                <div id="image-container"><img id="footer-image" src="assets/footer/image1.png"></div>
+                <div id="image-container">
+                <img id="footer-image" src="assets/footer/image1.png">
+                
+                </div>
                 <div id="text-container">
                     <h3><span id="slider-span">Marika Jóźwik</span> <span id="slider-span2">z Warszawy</span></h3>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate deserunt, nobis distinctio fugit magnam excepturi deleniti.</h4>
                 </div>
                 </div>
                 <div class="arrow" id="right-arrow-container">
-                    <a href="#"><img src="assets/footer/right-arrow.png" alt=""></a>
+                    <a href="#slider-container"><img src="assets/footer/right-arrow.png" alt=""></a>
                 </div>
             
         </div>
         <div id="dot-container">
-            <div class="slider-dot"></div>
-            <div class="slider-dot"></div>
-            <div class="slider-dot"></div>
+            <div id="dot-1" class="slider-dot"></div>
+            <div id="dot-2" class="slider-dot"></div>
+            <div id="dot-3" class="slider-dot"></div>
 
         </div>
 
